@@ -1,0 +1,14 @@
+builder
+pages
+public
+styles
+.env.local
+.next
+next-env.d.ts                                                           
+next.config.js
+postcss.config.js                                                       
+settings.ts                                                             
+tailwind.config.js                                                      
+tsconfig-components.json                                                
+tsconfig.json                                                           
+tsconfig.tsbuildinfo     

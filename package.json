@@ -1,22 +1,33 @@
 {
-  "name": "builder",
+  "name": "@llampukaq/builder",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npx tsc -p tsconfig-components.json",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@silexlabs/grapesjs-fonts": "^1.0.12",
+    "cllk": "^1.8.5",
+    "grapesjs": "0.21.2",
+    "grapesjs-component-countdown": "1.0.2",
+    "grapesjs-component-twitch": "1.0.5",
+    "grapesjs-custom-code": "1.0.2",
+    "grapesjs-parser-postcss": "1.0.1",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+    
+  },
+  "devDependencies": {
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
-    "next": "13.4.19",
     "postcss": "8.4.29",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
   }

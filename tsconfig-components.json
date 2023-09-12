@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["dom", "es6"],
+    "module": "ESNext",
+    "jsx": "react-jsx" /* Specify what JSX code is generated. */,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "rootDir": "./",
+    "declaration": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true /* Enable all strict type-checking options. */,
+    "skipLibCheck": true
+  },
+  "include": ["builder"]
+}
