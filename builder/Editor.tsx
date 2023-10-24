@@ -29,8 +29,10 @@ export default function Editor({ fn }: { fn: any; addAsset: () => void }) {
         className="duration-500 hidden w-[300px] sm:flex flex-col border-r-2"
         id="navbar-panels"
       >
-        <div className="border-b-2 rounded-xl py-2">
-          <H1>Editor</H1>
+        <div className="border-b-2 rounded-xl py-3">
+          <H1 size={"1.5em"} span>
+            Editor
+          </H1>
         </div>
         <div className="m-0 text-3xl border-b rounded-xl flex justify-between dark:text-zinc-50 p-4 items-center">
           <button

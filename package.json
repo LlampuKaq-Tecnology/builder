@@ -1,8 +1,20 @@
 {
   "name": "@llampukaq/builder",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
   "license": "MIT",
+  "main": "dist/builder/index.js",
+  "typings": "dist/builder/index.d.ts",
+  "sponsor": {
+    "url": "https://www.llampukaq.com/"
+  },
+  "author": {
+    "email": "llampukaq@llampukaq.com",
+    "name": "Llampukaq technology",
+    "url": "https://www.llampukaq.com/"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "npx tsc -p tsconfig-components.json",
@@ -10,8 +22,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@silexlabs/grapesjs-fonts": "^1.0.12",
-    "cllk": "^1.8.5",
+    "cllk": "^2.1.4",
     "grapesjs": "0.21.2",
     "grapesjs-component-countdown": "1.0.2",
     "grapesjs-component-twitch": "1.0.5",
@@ -19,13 +30,14 @@
     "grapesjs-parser-postcss": "1.0.1",
     "next": "13.4.19",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
-    
+    "react-dom": "18.2.0",
+    "showdown": "^2.1.0"
   },
   "devDependencies": {
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "@types/showdown": "^2.0.2",
     "autoprefixer": "10.4.15",
     "postcss": "8.4.29",
     "tailwindcss": "3.3.3",

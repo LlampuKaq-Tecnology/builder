@@ -8,7 +8,7 @@ import { gjsTyped } from "./gjsTyped";
 import { gjsTailwindcss } from "./gjsTailwindcss";
 import { gjsVideoBg } from "./gjsVideoBg";
 //@ts-ignore
-import gjsFont from "@silexlabs/grapesjs-fonts";
+// import gjsFont from "@silexlabs/grapesjs-fonts";
 //@ts-ignore
 import { gjsScriptEditor } from "./gjsScriptEditor";
 //@ts-ignore
@@ -35,7 +35,7 @@ export const pluginsGrapes: EditorConfig = {
     (editor: any) =>
       //@ts-ignore
       customCodePlugin(editor, { category: { label: "Extra", open: false } }),
-    (editor: any) =>
-      gjsFont(editor, { api_key: "AIzaSyCCz2Wp4FTe-juF5hMLnm0kp4RKgZOvpks" }),
+    // (editor: any) =>
+    //   gjsFont(editor, { api_key: "" }),
   ],
 };
